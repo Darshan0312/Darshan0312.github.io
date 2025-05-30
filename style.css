@@ -1,0 +1,67 @@
+/* Reset & basic styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #222;
+  padding: 1rem 0;
+}
+
+nav .nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav .nav-list li a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav .nav-list li a:hover,
+nav .nav-list li a.active {
+  color: #1e90ff;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.project-list {
+  list-style: disc inside;
+  padding-left: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #222;
+  color: #eee;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

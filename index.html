@@ -1,11 +1,53 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Darshan's Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Darshan's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Hello, I'm Darshan!</h1>
-  <p>Welcome to my personal website.</p>
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section">
+      <h1>Hello, I'm Darshan</h1>
+      <p>Welcome to my portfolio website.</p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I’m an AI/ML engineer passionate about building cool projects and learning new tech.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <ul class="project-list">
+        <li>Project 1 - AI Tutor App</li>
+        <li>Project 2 - Emotional TTS Model</li>
+        <li>Project 3 - Portfolio Website</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>Email: darshan@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Darshan. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
