@@ -1,199 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Darshan BR - AI/ML Engineer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-  <!-- Simple icon library (optional, for social links etc.) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan BR - AI/ML Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="animated-bg">
-      <span style="left:10vw; animation-delay:0s; width:18px; height:18px;"></span>
-      <span style="left:30vw; animation-delay:2s; width:24px; height:24px;"></span>
-      <span style="left:50vw; animation-delay:4s; width:14px; height:14px;"></span>
-      <span style="left:70vw; animation-delay:1s; width:20px; height:20px;"></span>
-      <span style="left:85vw; animation-delay:3s; width:22px; height:22px;"></span>
-      <span style="left:20vw; animation-delay:5s; width:16px; height:16px;"></span>
-      <span style="left:60vw; animation-delay:6s; width:19px; height:19px;"></span>
+
+    <div class="background-container"></div>
+
+    <div class="portfolio-container">
+        <section class="card hero-card">
+            <div class="hero-content">
+                <h1>Hello, I'm Darshan BR</h1>
+                <p class="tagline">AI/ML Engineer</p>
+                <p class="intro-text">
+                    Passionate about building intelligent systems that deliver measurable impact.
+                </p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="card">
+            <div class="about-me-grid">
+                <div class="profile-picture-container">
+                    <img src="https://i.imgur.com/your-image-url.jpg" alt="Darshan BR" class="profile-picture">
+                </div>
+                <div class="about-me-content">
+                    <h2>About Me</h2>
+                    <p>
+                        Dedicated and performance-driven AI/ML Engineer with over 1.5+ years of experience in developing, fine-tuning, and deploying machine learning models, LLMs, and TTS systems. I specialize in NLP, OCR, Computer Vision, and multimodal learning , with a proven ability to optimize cost by replacing paid APIs with scalable local solutions.
+                    </p>
+                    <a href="Darshan_Resume.pdf" download class="cta-button">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="card">
+            <h2>Core Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Curriculum Expertise</h3>
+                    <ul>
+                        <li>Machine Learning & Deep Learning</li>
+                        <li>Natural Language Processing (NLP)</li>
+                        <li>Computer Vision & OCR</li>
+                        <li>Text-to-Speech & Speech-to-text</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> MLOps</h3>
+                    <ul>
+                        <li>Docker & CI/CD Pipelines</li>
+                        <li>Git & MLflow</li>
+                        <li>Airflow & DVC</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Frameworks & Tools</h3>
+                    <ul>
+                        <li>LangChain, LangGraph, LlamaIndex</li>
+                        <li>FastAPI & Transformers</li>
+                        <li>Agentic AI Frameworks</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Programming & Databases</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Vector DBs (e.g., ChromaDB)</li>
+                    </ul>
+                </div>
+                 <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+                    <ul>
+                        <li>AWS, GCP, Azure</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="card">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>AI/ML Engineer</h3>
+                <p class="company-info">DataSpark AI Solutions - Chennai, TamilNadu | 12/2024 - Present</p>
+                <ul>
+                    <li>Collaborated on fine-tuning models like LLaMA, Qwen, and DeepSeek and deployed them in Dockerized FastAPI services.</li>
+                    <li>Developed OCR workflows using Qwen-VL and MMOCR to extract text from diverse documents.</li>
+                    <li>Transitioned from cloud-based TTS (Google Cloud) to local solutions, cutting costs by ~40%.</li>
+                    <li>Used LangChain and LlamaIndex to create Retrieval-Augmented Generation (RAG) pipelines.</li>
+                    <li>Managed vector stores like ChromaDB for embedding storage and similarity search.</li>
+                    <li>Containerized image generation models like SDXL and set up CI/CD pipelines.</li>
+                    <li>Guided interns on coding standards, code reviews, and basic ML concepts.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Data Science Consultant</h3>
+                <p class="company-info">Rubixe AI - Bangalore, Karnataka | 12/2023 - 11/2024</p>
+                <ul>
+                    <li>Spearheaded Python-driven data manipulation and statistical modelling.</li>
+                    <li>Utilized SQL and Power BI to analyze datasets, reducing fraudulent activities by 20%.</li>
+                    <li>Engineered machine learning models (logistic regression, decision trees) to refine customer segmentation.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="card">
+            <h2>Featured Projects</h2>
+            <div class="project-item">
+                <h3>IELTS Preparation App</h3>
+                <p class="project-desc">An AI-powered platform for IELTS speaking practice with a suite of tools for real-time feedback and skill enhancement.</p>
+                <ul>
+                    <li>Designed an AI-driven speaking test module using Python and GPT models for real-time test simulation and automated feedback.</li>
+                    <li>Built an interactive "AI Speaking Playground" with local/cloud TTS/STT models, Flask, and MongoDB.</li>
+                    <li>Developed an NLP-based chatbot with Python and MySQL to engage users and answer queries.</li>
+                </ul>
+                 <a href="https://ieltsgenai.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project &rarr;</a>
+            </div>
+            <div class="project-item">
+                <h3>AI Interview Platform</h3>
+                <p class="project-desc">An end-to-end AI system that simulates various interview formats and provides automated, personalized feedback.</p>
+                <ul>
+                    <li>Built the AI backend using Python and GPT models with advanced prompt engineering (CoT, ToT) for dynamic interview simulations.</li>
+                    <li>Integrated NLP, STT, and TTS models with Flask and MongoDB for natural, real-time user interactions.</li>
+                    <li>Engineered an automated feedback system to provide personalized advice via email, reducing user anxiety.</li>
+                    <li>Employed Selenium and Beautiful Soup for web scraping to enrich the question generation process.</li>
+                </ul>
+                 <a href="https://intervu.in/" target="_blank" rel="noopener noreferrer" class="project-link">View Project &rarr;</a>
+            </div>
+        </section>
+
+        <section id="education" class="card">
+            <div class="education-grid">
+                <div class="education-column">
+                    <h2>Education</h2>
+                    <div class="education-item">
+                        <h3>BCA, Government Science College</h3>
+                        <p>Hassan, Karnataka | 05/2020 - 05/2023</p>
+                    </div>
+                     <div class="education-item">
+                        <h3>Certified Data Scientist</h3>
+                        <p>DataMites Institute, Bangalore</p>
+                    </div>
+                </div>
+                <div class="certifications-column">
+                    <h2>Certifications</h2>
+                    <ul>
+                       <li>Certified Data Scientist: IABAC</li>
+                       <li>MLOps Foundations: iNeuron</li>
+                       <li>Machine Learning: Simplilearn</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="card contact-card">
+            <h2>Let's Connect</h2>
+            <p>I'm always open to new opportunities and collaborations. Feel free to reach out through the form below or via my social channels.</p>
+            <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="mailto:darshanbr081@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/darshan-br-9880rb/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Darshan0312" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
     </div>
-  <header>
-    <nav>
-      <div class="nav-logo">
-        <a href="#home">Darshan BR</a>
-      </div>
-      <ul class="nav-list">
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-    </nav>
-  </header>
-
-  <main>
-    <section id="home" class="section hero-section text-center">
-      <div class="hero-content">
-        <h1>Hello, I'm Darshan BR</h1>
-        <p class="tagline">AI/ML Engineer</p>
-        <p class="intro-text">
-          Dedicated to crafting intelligent systems that deliver measurable impact, specializing in LLMs, NLP, and Computer Vision.
-        </p>
-        <div class="social-links">
-          <a href="mailto:darshanbr081@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
-          <a href="https://www.linkedin.com/in/darshan-br-9880rb/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://github.com/Darshan0312" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        </div>
-        <a href="#projects" class="cta-button">View My Work</a>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
-        <div class="card">
-          <h3>Professional Summary</h3>
-          <p>
-            Performance-driven AI/ML Engineer with 1.5+ years of experience in developing, fine-tuning, and deploying machine
-            learning models, LLMs, and TTS systems. Specialized in NLP, OCR, Computer Vision, and multimodal learning. Proven ability to optimize cost with scalable local solutions.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Education</h3>
-          <ul>
-            <li>BCA, Government Science College, Hassan, Karnataka | 05/2020 - 05/2023</li>
-            <li>Certified Data Scientist, DataMites Institute, Bangalore</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>Certifications</h3>
-          <ul>
-            <li>Certified Data Scientist: IABAC</li>
-            <li>MLOps Foundations: iNeuron</li>
-            <li>Machine Learning: Simplilearn</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <h2 class="section-title">Professional Experience</h2>
-      <div class="timeline">
-        <div class="timeline-item card job">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <h3>AI/ML Engineer</h3>
-            <p class="job-company">DataSpark AI Solutions - Chennai, TamilNadu</p>
-            <p class="job-dates">December 2024 – Present <em>(Future Start)</em></p>
-            <ul>
-              <li>Fine-tuned LLaMA, Qwen, DeepSeek; deployed via Dockerized FastAPI.</li>
-              <li>Developed OCR workflows (Qwen-VL, MMOCR), enhancing accuracy with preprocessing.</li>
-              <li>Transitioned TTS from cloud to local solutions, cutting costs by ~40%.</li>
-              <li>Built RAG pipelines with LangChain/LlamaIndex; managed ChromaDB.</li>
-              <li>Containerized SDXL; set up CI/CD; monitored GPU usage.</li>
-              <li>Guided interns on ML concepts and best practices.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item card job">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <h3>Data Science Consultant</h3>
-            <p class="job-company">Rubixe AI - Bangalore, Karnataka</p>
-            <p class="job-dates">December 2023 - November 2024</p>
-            <ul>
-              <li>Led Python-driven data manipulation and statistical modelling.</li>
-              <li>Reduced fraudulent activities by 20% using SQL and Power BI.</li>
-              <li>Engineered ML models (logistic regression, decision trees) for customer segmentation.</li>
-              <li>Boosted team productivity with versatile programming and analytical skills.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <h2 class="section-title">Core Competencies</h2>
-      <div class="skills-grid">
-        <div class="card skill-category">
-          <h4><i class="fas fa-brain"></i> Expertise</h4>
-          <p>Machine Learning, Deep Learning, NLP, Computer Vision, TTS, Speech-to-text.</p>
-        </div>
-        <div class="card skill-category">
-          <h4><i class="fas fa-cogs"></i> MLOps</h4>
-          <p>Docker, CI/CD, Git, MLflow, Airflow, DVC.</p>
-        </div>
-        <div class="card skill-category">
-          <h4><i class="fas fa-tools"></i> Frameworks & Tools</h4>
-          <p>LangChain, LlamaIndex, FastAPI, Transformers, Agentic AI.</p>
-        </div>
-        <div class="card skill-category">
-          <h4><i class="fas fa-code"></i> Programming & DBs</h4>
-          <p>Python, SQL, Vector DBs.</p>
-        </div>
-        <div class="card skill-category">
-          <h4><i class="fas fa-cloud"></i> Cloud Platforms</h4>
-          <p>AWS, GCP, Azure.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <h2 class="section-title">Featured Projects</h2>
-      <div class="projects-grid">
-        <div class="card project">
-          <div class="project-image-placeholder"><span>IELTS App</span></div> <!-- Placeholder for image -->
-          <h3>IELTS Preparation App</h3>
-          <p class="project-desc">AI-driven platform for IELTS speaking practice with real-time feedback.</p>
-          <div class="project-tags">
-            <span>Python</span><span>GPT</span><span>Flask</span><span>MongoDB</span><span>OpenAI API</span>
-          </div>
-          <a href="https://ieltsgenai.com/" target="_blank" rel="noopener noreferrer" class="project-link">
-            View Project <i class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-        <div class="card project">
-          <div class="project-image-placeholder"><span>Interview AI</span></div> <!-- Placeholder for image -->
-          <h3>AI Interview Platform</h3>
-          <p class="project-desc">End-to-end AI backend for dynamic interview simulations and feedback.</p>
-          <div class="project-tags">
-            <span>Python</span><span>GPT</span><span>NLP</span><span>Flask</span><span>MongoDB</span>
-          </div>
-          <a href="https://intervu.in/" target="_blank" rel="noopener noreferrer" class="project-link">
-            View Project <i class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-        <!-- Add more projects as needed -->
-      </div>
-    </section>
-
-    <section id="contact" class="section text-center">
-      <h2 class="section-title">Get In Touch</h2>
-      <p>I'm open to new opportunities and collaborations. Let's connect!</p>
-      <a href="mailto:darshanbr081@gmail.com" class="cta-button">Say Hello</a>
-      <div class="contact-details">
-        <p><i class="fas fa-phone"></i> 9880629269</p>
-        <p>
-            <a href="https://www.linkedin.com/in/darshan-br-9880rb/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a> |
-            <a href="https://github.com/Darshan0312" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© <span id="currentYear"></span> Darshan BR. Crafted with <i class="fas fa-heart" style="color: #08fdd8;"></i>.</p>
-  </footer>
-
-  <script src="scripts.js"></script>
 </body>
 </html>
